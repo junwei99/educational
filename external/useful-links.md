@@ -8,6 +8,6 @@
 
    - reddit discussion, features being mentioned: **Private keyword**, **decorators**, **enums**, **namespaces**.
 
-3. [When to use Zod?](https://www.totaltypescript.com/when-should-you-use-zod)
+3. [When to use Zod? (Jan 2023)](https://www.totaltypescript.com/when-should-you-use-zod)
 
    - inputs you don't trust, inputs you sort of trust, inputs you can trust
