@@ -2,7 +2,7 @@
 
 1.  ### Determine if item has already been added to cart
 
-    Item uniqueness is determined by the 'time slot' it is assigned to and the eventUnitId.
+    Item uniqueness is determined by the 'time slot' it is assigned to and the eventUnitId (units to book, e.g. seats for cinema).
 
     e.g. if **8AM - 10AM** slot is booked, user should not be able to book **9AM - 10AM**
 
