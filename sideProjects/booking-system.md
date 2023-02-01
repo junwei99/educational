@@ -12,6 +12,8 @@
 
       e.g. if **8AM - 10AM** slot is booked, user should not be able to book **9AM - 10AM** slot with the same unit
 
+    The first scenario is easily achievable by just checking the unitId whenever the item is fetched, the second scenario however is a bit tricky to handle.
+
     2 ways of achieving this :
 
     1. Check on client side
@@ -26,4 +28,4 @@
 
        when client fetches from server again, it will filter out results based on previously added item.
 
-       **challenges** : hard to work for a non logged in user
+       **Challenges** : hard to work for a non logged in user
