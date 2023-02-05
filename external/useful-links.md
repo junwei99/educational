@@ -11,3 +11,7 @@
 3. [When to use Zod? (Jan 2023)](https://www.totaltypescript.com/when-should-you-use-zod)
 
    - inputs you don't trust, inputs you sort of trust, inputs you can trust
+
+4. [StructuredClone](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone)
+
+   - native js way of handling deep copies of an object, native version of deepCopy from lodash
