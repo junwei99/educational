@@ -42,7 +42,7 @@ output is unchanged, only input is changed
 
    ```
 
-   The class above will be the type for the new JSON param above (this is used as param for the api:
+   The class above will be the **type for the new JSON param** above (this is used as param for the api) :
 
    using the **class created above as the type of the parameter** for the controller function
 
