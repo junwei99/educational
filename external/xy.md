@@ -32,7 +32,7 @@ output is unchanged, only input is changed
       List<String> enodebIdList = []
 
       //this is a constructor, its the same as the name of the class
-      public combinedVO(List<String> cgisaiList, List<String> enodebIdList){
+      public combinedDO(List<String> cgisaiList, List<String> enodebIdList){
          this.cgisaiList = cigsaiList
          this.enodebIdList = enodebIdList
       }
@@ -57,7 +57,7 @@ output is unchanged, only input is changed
    }
    ```
 
-2. Services
+2. #### Services
 
    return value is the same, but the parameter is different
 
@@ -81,19 +81,19 @@ output is unchanged, only input is changed
    }
    ```
 
-3. XML
+3. #### XML
 
    input cgiList & enodebList and return list of DetailDO/FMTableDO/ABTableDO/CDTableDO
 
-4. CombinedDO is unchanged
+4. #### CombinedDO is unchanged
 
-5. interfaces have to change (dataMapper, services, controller)
+5. #### interfaces have to change (dataMapper, services, controller)
 
 ### Frontend
 
 **Only come to frontend if u have tested with postman and backend works!!!**
 
-1. AJAX POST
+1. #### AJAX POST
 
    - make sure when u call the api, u can see it on the network tab, if u can't then its frontend problem
    - make sure url is correct, test the same url on postman
