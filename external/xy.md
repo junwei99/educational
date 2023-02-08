@@ -83,7 +83,7 @@ output is unchanged, only input is changed
 
 3. XML
 
-   get cgiList and return list of DetailDO/FMTableDO/ABTableDO/CDTableDO
+   input cgiList & enodebList and return list of DetailDO/FMTableDO/ABTableDO/CDTableDO
 
 4. CombinedDO is unchanged
 
