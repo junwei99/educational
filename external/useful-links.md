@@ -20,5 +20,5 @@
 
    - pixels vs rem, easier for font size calculation
 
-6. [N+1 problem in GraphQL](https://github.com/junwei99/educational.git)
+6. [N+1 problem in GraphQL (Dec 2019)](https://github.com/junwei99/educational.git)
    - unecessary requests to DB from backend, solutions: **data loader**, **DB joins**, pros and cons of the 2 solutions and how to get the best of both worlds
