@@ -25,5 +25,10 @@
    - unecessary requests to DB from backend, solutions: **data loader**, **DB joins**, pros and cons of the 2 solutions and how to get the best of both worlds
 
 7. [Using Native JavaScript Modules in Production Today](https://philipwalton.com/articles/using-native-javascript-modules-in-production-today/)
+
    - build to native ES modules is faster nowadays
    - module preload & code splitting strategy
+
+8. [Patterns.dev](https://www.patterns.dev/)
+
+   - FE design & performance patterns (Vue, React, Vanilla JS)
